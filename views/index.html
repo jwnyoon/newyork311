@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+	<title>New York 311</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src='https://api.tiles.mapbox.com/mapbox.js/v2.2.1/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.1/mapbox.css' rel='stylesheet' />
+<script src='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.css' rel='stylesheet' />
+   <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
+    <link href='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet'>
+    <link href='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet'>
+	<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+</head>
+
+
+<body>
+	<div id="viz"></div>
+	<div id="map"></div>
+	
+
+	<h1>New York 311</h1>
+	<div class="des">
+		Data on 311 Service Requests in New York (July 2015)<br>
+		Source: New York Open Data
+		
+	</div>
+
+
+	<div class="bttn graph">CHART
+	</div>
+	<div class="bttn mapp">MAP
+	</div>
+
+
+<form id='colors'>
+  <div><input type='checkbox' name='filters' onclick='showStations();' value='Blocked Driveway' > Blocked Driveway</div>
+  <div><input type='checkbox' name='filters' onclick='showStations();' value='Dirty Conditions' > Dirty Conditions</div>
+  <div><input type='checkbox' name='filters' onclick='showStations();' value='Illegal Parking'> Illegal Parking</div>
+  <div><input type='checkbox' name='filters' onclick='showStations();' value='Noise'> Noise</div>
+  <div><input type='checkbox' name='filters' onclick='showStations();' value='PAINT/PLASTER'> PAINT/PLASTER</div>
+    <div><input type='checkbox' name='filters' onclick='showStations();' value='PLUMBING'> PLUMBING</div>
+  <div><input type='checkbox' name='filters' onclick='showStations();' value='Street Condition'> Street Condition</div>
+    <div><input type='checkbox' name='filters' onclick='showStations();' value='Street Light Condition'> Street Light Condition</div>
+  <div><input type='checkbox' name='filters' onclick='showStations();' value='UNSANITARY CONDITION'> UNSANITARY CONDITION</div>
+  <div><input type='checkbox' name='filters' onclick='showStations();' value='Water System'> Water System</div>
+</form>
+
+
+<div class="datainfo">
+	- Filters: Top 10 Complaint Types<br>
+	Click markers to see detail.
+
+</div>
+	<!-- library -->
+	<script src="d3/d3.v3.min.js"></script>
+	<script src="d3/queue.v1.min.js"></script>
+
+	<!-- code -->
+	<script src="js/viz.js"></script>
+		<script src="js/map.js"></script>
+	<script src="js/main2.js"></script>
+
+</body>
+

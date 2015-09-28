@@ -1,0 +1,101 @@
+City,Complaint_Type,Num
+Astoria,Noise,353
+Astoria,Blocked Driveway,280
+Astoria,Street Light Condition,171
+Astoria,Illegal Parking,147
+Astoria,Maintenance or Facility,112
+Astoria,Water System,101
+Astoria,Street Condition,96
+Astoria,UNSANITARY CONDITION,84
+Astoria,Construction,78
+Astoria,Sanitation Condition,64
+Bronx,Noise,2821
+Bronx,Water System,2459
+Bronx,UNSANITARY CONDITION,2210
+Bronx,PAINT/PLASTER,1931
+Bronx,PLUMBING,1430
+Bronx,Blocked Driveway,1206
+Bronx,Rodent,1048
+Bronx,Illegal Parking,974
+Bronx,DOOR/WINDOW,940
+Bronx,WATER LEAK,910
+Brooklyn,Noise,4947
+Brooklyn,UNSANITARY CONDITION,2846
+Brooklyn,Illegal Parking,2702
+Brooklyn,Water System,2665
+Brooklyn,Blocked Driveway,2565
+Brooklyn,Street Condition,2281
+Brooklyn,PAINT/PLASTER,2136
+Brooklyn,Street Light Condition,1492
+Brooklyn,PLUMBING,1470
+Brooklyn,Sanitation Condition,1408
+Corona,Blocked Driveway,252
+Corona,Water System,195
+Corona,Noise,103
+Corona,UNSANITARY CONDITION,70
+Corona,Illegal Parking,69
+Corona,Street Light Condition,67
+Corona,Street Condition,57
+Corona,Construction,46
+Corona,Building/Use,38
+Corona,PAINT/PLASTER,26
+Far Rockaway,Street Condition,160
+Far Rockaway,UNSANITARY CONDITION,95
+Far Rockaway,Street Sign - Damaged,86
+Far Rockaway,Noise,70
+Far Rockaway,Sewer,68
+Far Rockaway,PAINT/PLASTER,59
+Far Rockaway,Street Light Condition,45
+Far Rockaway,Illegal Parking,39
+Far Rockaway,Derelict Vehicle,34
+Far Rockaway,Dirty Conditions,33
+Flushing,Street Condition,299
+Flushing,Blocked Driveway,269
+Flushing,Illegal Parking,172
+Flushing,Noise,146
+Flushing,Street Light Condition,144
+Flushing,Dirty Conditions,136
+Flushing,Water System,102
+Flushing,Sanitation Condition,98
+Flushing,Missed Collection (All Materials),90
+Flushing,Derelict Vehicle,89
+Jamaica,Blocked Driveway,275
+Jamaica,Derelict Vehicle,244
+Jamaica,Street Condition,215
+Jamaica,Noise,190
+Jamaica,Water System,188
+Jamaica,Street Light Condition,176
+Jamaica,Sanitation Condition,171
+Jamaica,Sewer,171
+Jamaica,Dirty Conditions,147
+Jamaica,Illegal Parking,145
+New York,Noise,6469
+New York,Water System,1975
+New York,Street Condition,1545
+New York,UNSANITARY CONDITION,1530
+New York,Illegal Parking,1262
+New York,PAINT/PLASTER,1094
+New York,Taxi Complaint,954
+New York,PLUMBING,925
+New York,GENERAL,761
+New York,Rodent,716
+Ridgewood,Illegal Parking,195
+Ridgewood,Noise,165
+Ridgewood,Blocked Driveway,155
+Ridgewood,Street Condition,101
+Ridgewood,Water System,99
+Ridgewood,Dirty Conditions,82
+Ridgewood,UNSANITARY CONDITION,82
+Ridgewood,Street Light Condition,70
+Ridgewood,Derelict Vehicle,59
+Ridgewood,Sanitation Condition,59
+Staten Island,Street Condition,1071
+Staten Island,Dirty Conditions,497
+Staten Island,Illegal Parking,492
+Staten Island,Street Light Condition,455
+Staten Island,Noise,376
+Staten Island,Water System,359
+Staten Island,Missed Collection (All Materials),355
+Staten Island,Sanitation Condition,336
+Staten Island,Overgrown Tree/Branches,301
+Staten Island,Derelict Vehicle,271
